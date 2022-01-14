@@ -1,0 +1,39 @@
+.listItems {
+    list-style-type: none;
+    display: inline;
+
+
+}
+
+.listItems:hover {
+    background-color: var(--cstm-secondary-C);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+
+nav {
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.loginBtn {
+    padding: 7px 15px;
+    background-color: var(--cstm-primiry-C);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid var(--cstm-primiry-C);
+}
+
+.loginBtn:hover {
+    border: 1px solid var(--cstm-primiry-C);
+    color: var(--cstm-primiry-C);
+    background-color: white;
+
+
+}
