@@ -23,7 +23,7 @@
     }
     
     .inner-banner-section-two {
-        padding: 25px 55px;
+        padding: 25px 45px;
         background-color: #fff;
         color: #3f3f3f;
         border-radius: 15px;
@@ -65,4 +65,33 @@
     .inner-tag-icon {
         color: #fff;
         margin-right: 10px;
+    }
+    
+    .cutm-carousel-section {
+        background-color: #f4f4f4;
+        width: 100%;
+        padding: 80px;
+    }
+    
+    .cutm-carousel-section h2 {
+        font-size: 2rem;
+        color: #3f3f3f;
+        font-weight: 700;
+    }
+    
+    .carousel-heading {
+        font-size: 1.3rem;
+        margin: 15px 0px;
+        font-weight: 700;
+        color: #3f3f3f;
+    }
+    
+    .carousel-heading-two {
+        font-size: .875em;
+        font-weight: 500;
+    }
+    
+    .custm-card-shdw {
+        box-shadow: 0 4px 20px #0000001a;
+        border-radius: 15px;
     }
