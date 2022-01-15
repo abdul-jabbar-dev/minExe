@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Service = () => {
     return (
         <div className='container mx-auto grid md:grid-cols-12  gap-4 p-24 mt-5 rounded-2xl'>
@@ -41,7 +40,7 @@ const Service = () => {
                     </div>
 
                 </div><div className='flex justify-center my-5'>
-                    <button className="bg-cyan-500 hover:bg-cyan-600 py-3 px-5 rounded-xl text-white "> জয়েন করুন <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></button>
+                    <button className="joinBtn py-2 px-4 rounded text-white "> জয়েন করুন <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div className='col-span-4 cust-card-background'>
@@ -86,7 +85,7 @@ const Service = () => {
                     </div>
 
                 </div><div className='flex justify-center my-5'>
-                    <button className="bg-cyan-500 hover:bg-cyan-600 py-3 px-5 rounded-xl text-white "> জয়েন করুন <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></button>
+                    <button className="joinBtn py-2 px-4 rounded text-white "> জয়েন করুন <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div className='col-span-4 cust-card-background'>
@@ -132,7 +131,7 @@ const Service = () => {
 
                 </div>
                 <div className='flex justify-center my-5'>
-                    <button className="bg-cyan-500 hover:bg-cyan-600 py-3 px-5 rounded-xl text-white "> জয়েন করুন <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></button>
+                    <button className="joinBtn py-2 px-4 rounded text-white "> জয়েন করুন <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></button>
                 </div>
             </div>
 

@@ -1,0 +1,43 @@
+.listItems {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 7px 13px;
+    gap: 10px;
+    align-items: center;
+    color: var(--cstm-primiry-C);
+
+}
+
+.listItems:hover {
+    background-color: var(--cstm-secondary-C);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.loginBtn {
+    padding: 7px 15px;
+    background-color: var(--cstm-primiry-C);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid var(--cstm-primiry-C);
+}
+
+.loginBtn:hover {
+    transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+    transition-property: background-color, transform;
+    transition-duration: .3s;
+    border: 1px solid var(--cstm-primiry-C);
+    color: var(--cstm-primiry-C);
+    background-color: white;
+
+
+}
