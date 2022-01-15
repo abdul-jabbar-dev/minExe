@@ -1,0 +1,19 @@
+.footerComponent {
+    background: linear-gradient(180deg, #363643 0%, #110e17 100%);
+    color: white;
+}
+
+.footerLogo {
+    background-color: #2D2C38;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.moreLink {
+    color: #c4c1c1;
+    cursor: pointer;
+}
+.moreLink:hover {
+    color: #ffffff;
+    
+}

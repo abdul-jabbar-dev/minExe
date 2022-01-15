@@ -1,27 +1,28 @@
-.download_btn{
-    background-color: #ff284f;
+.download_btn {
+
+    background-color: var(--cstm-secondary-C);
     color: white;
-    border: 1px solid #ff284f;
+    border: 1px solid var(--cstm-secondary-C);
 }
-.download_btn:hover{
+
+.download_btn:hover {
+    transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+    transition-property: background-color, transform;
+    transition-duration: .3s;
     background-color: white;
-    color: #ff284f;
-    border: 1px solid #ff284f;
+    color: var(--cstm-secondary-C);
+    border: 1px solid var(--cstm-secondary-C);
 }
 
 /* for resposive  */
 @media only screen and (max-width: 480px) {
-    .customer{
+    .customer {
         grid-column: 2;
 
     }
-} 
-
-
-@media only screen and (max-width: 600px) {
-  
 }
 
-@media only screen and (max-width: 768px) {
-    
-  }
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 768px) {}
