@@ -1,6 +1,8 @@
-    .banner-section {}
-
-    .inner-banner-section {}
+ .joinBtn {
+        background-color: var(--cstm-third-C);
+    }
+    .joinBtn {
+        background-color: var(--cstm-third-C);
 
     .inner-banner-section h1 {
         font-size: 3rem;
@@ -23,7 +25,7 @@
     }
 
     .inner-banner-section-two {
-        padding: 25px 55px;
+        padding: 25px 45px;
         background-color: #fff;
         color: var(--cstm-primiry-C);
         border-radius: 15px;
@@ -65,10 +67,32 @@
         color: var(--cstm-third-C);
         margin-right: 10px;
     }
-
-    .joinBtn {
-        background-color: var(--cstm-third-C);
+    
+    .cutm-carousel-section {
+        background-color: #f4f4f4;
+        width: 100%;
+        padding: 80px;
     }
-    .joinBtn {
-        background-color: var(--cstm-third-C);
+    
+    .cutm-carousel-section h2 {
+        font-size: 2rem;
+        color: #3f3f3f;
+        font-weight: 700;
+    }
+    
+    .carousel-heading {
+        font-size: 1.3rem;
+        margin: 15px 0px;
+        font-weight: 700;
+        color: #3f3f3f;
+    }
+    
+    .carousel-heading-two {
+        font-size: .875em;
+        font-weight: 500;
+    }
+    
+    .custm-card-shdw {
+        box-shadow: 0 4px 20px #0000001a;
+        border-radius: 15px;
     }

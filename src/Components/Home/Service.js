@@ -51,31 +51,37 @@ const Service = () => {
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        ৭টি প্রোগ্রাম
+                        10 Subjects 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        ১০টি মডেল টেস্ট
+                        400 Live Classes 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        In-App/Web Live ক্লাস
+                        400 Lecture Sheets 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        MCQ প্র্যাকটিস পরীক্ষা
+                        19 Model Tests 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        Online লিখিত পরীক্ষা
+                        19 Solve Sheets 
+                    </div>
+                    <div className='inner-tag-div'>
+                        <span className='inner-tag-icon'>
+                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                        </span>
+                        19 Solve Classes 
                     </div>
 
                 </div><div className='flex justify-center my-5'>
@@ -90,31 +96,37 @@ const Service = () => {
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        ৭টি প্রোগ্রাম
+                        12 Subjects 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        ১০টি মডেল টেস্ট
+                        200 Live Classes 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        In-App/Web Live ক্লাস
+                        200 Lecture Sheets 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        MCQ প্র্যাকটিস পরীক্ষা
+                        14 Model Tests 
                     </div>
                     <div className='inner-tag-div'>
                         <span className='inner-tag-icon'>
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
-                        Online লিখিত পরীক্ষা
+                        14 Solve Sheets 
+                    </div>
+                    <div className='inner-tag-div'>
+                        <span className='inner-tag-icon'>
+                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                        </span>
+                        14 Solve Classes 
                     </div>
 
                 </div>

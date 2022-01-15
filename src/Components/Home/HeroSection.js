@@ -21,11 +21,11 @@ const HeroSection = () => {
                     </div>
                     <div className='inner-banner-section-two'>
                       <img src={secondImg} alt="" />
-                      <h3>ক্লাস ১-১২</h3>
+                      <h3> ভর্তি পরীক্ষা </h3>
                     </div>
                     <div className='inner-banner-section-two'>
                       <img src={thirdImg} alt="" />
-                      <h3>ক্লাস ১-১২</h3>
+                      <h3> স্কিল ডেভেলপমেন্ট </h3>
                     </div>
                 </div>
             </div>
