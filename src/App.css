@@ -1,3 +1,9 @@
+:root {
+  --cstm-primiry-C: #3f3f3f;
+  --cstm-secondary-C: #ff284f;
+  --cstm-third-C: #45c881;
+}
+
 .cstm-primiry-TC {
   color: #3f3f3f;
 }
