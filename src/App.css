@@ -1,29 +1,36 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow', sans-serif;
+}
+
 :root {
-  --cstm-primiry-C: #3f3f3f;
-  --cstm-secondary-C: #ff284f;
-  --cstm-third-C: #45c881;
+    --cstm-primiry-C: #3f3f3f;
+    --cstm-secondary-C: #ff284f;
+    --cstm-third-C: #45c881;
 }
 
 .cstm-primiry-TC {
-  color: #3f3f3f;
+    color: #3f3f3f;
 }
 
 .cstm-secondary-TC {
-  color: #ff284f;
+    color: #ff284f;
 }
 
 .cstm-third-TC {
-  color: #45c881;
+    color: #45c881;
 }
 
 .cstm-primiry-BgC {
-  color: #3f3f3f;
+    color: #3f3f3f;
 }
 
 .cstm-secondary-BgC {
-  color: #ff284f;
+    color: #ff284f;
 }
 
 .cstm-third-BgC {
-  color: #45c881;
+    color: #45c881;
 }

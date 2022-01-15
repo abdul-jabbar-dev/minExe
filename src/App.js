@@ -1,22 +1,17 @@
 import './App.css';
+import Home from './Page/Home/Home';
 import Footer from './Page/Shared/Footer';
-import Navigation from './Page/Shared/Navigation';
-import CstomerSatisfaction from './Components/Home/CstomerSatisfaction';
 
 
 function App() {
   return (
     <div className="App">
-      {/* NavBar   */}
-      <Navigation></Navigation>
-      
-     <CstomerSatisfaction></CstomerSatisfaction>
 
+      <Home></Home>
 
-
-      {/* footer  */}
       <Footer></Footer>
-    </div>
+
+    </div >
   );
 }
 
