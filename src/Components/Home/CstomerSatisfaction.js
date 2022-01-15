@@ -3,7 +3,9 @@ import './CstomerSatisfaction.css'
 import { FiDownload } from "@react-icons/all-files/fi/FiDownload";
 const CstomerSatisfaction = () => {
     return (
+
         <div style={{ backgroundColor: "#F7F8FA" }} className='container mx-auto'>
+
             <div className="flex justify-center">
                 <div className="text-center p-10 ">
                     <h1 className="text-3xl font-bold p-8">শেখো <span style={{ color: "#ff284f" }}>নিজের ইচ্ছেমতো!</span></h1>
@@ -13,6 +15,7 @@ const CstomerSatisfaction = () => {
 
             </div>
             <div className=" customer p-6 flex justify-center  grid grid-cols-4 gap-4 justify-items-center">
+
                 <div className="flex  bg-white p-4 rounded">
                     <div>
                         <img src="https://10minuteschool.com/assets/landing-page/video.svg" alt="" />
