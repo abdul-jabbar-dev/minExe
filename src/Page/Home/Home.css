@@ -1,7 +1,7 @@
     .banner-section {}
-    
+
     .inner-banner-section {}
-    
+
     .inner-banner-section h1 {
         font-size: 3rem;
         line-height: 3.5rem;
@@ -9,51 +9,50 @@
         font-family: 'Barlow', sans-serif;
         margin-bottom: 35px;
     }
-    
+
     .inner-banner-section p {
         width: 85%;
         margin-bottom: 35px;
     }
-    
+
     .banner-section-two h3 {
         text-align: center;
         margin: 15px 0px 0px;
         font-size: 18px;
         font-weight: 600;
     }
-    
+
     .inner-banner-section-two {
         padding: 25px 55px;
         background-color: #fff;
-        color: #3f3f3f;
+        color: var(--cstm-primiry-C);
         border-radius: 15px;
     }
-    
+
     .inner-banner-section-two:hover {
-        background-color: #3f3f3f;
+        background-color: var(--cstm-primiry-C);
         color: #fff;
     }
-    
+
     .cust-card-background {
         padding: 20px;
         background-color: #f7f8fa;
         border-radius: 10px;
     }
-    
+
     .cust-card-background h4 {
         text-align: center;
         padding: 20px 0px;
         font-weight: 700;
-        color: #3f3f3f;
+        color: var(--cstm-primiry-C);
         font-size: 1.5rem;
     }
-    
+
     .tags-section {
         text-align: center;
     }
-    
+
     .inner-tag-div {
-        background-color: red;
         display: inline-block;
         padding: 8px 15px;
         border-radius: 30px;
@@ -61,8 +60,15 @@
         margin-top: 10px;
         text-align: center;
     }
-    
+
     .inner-tag-icon {
-        color: #fff;
+        color: var(--cstm-third-C);
         margin-right: 10px;
+    }
+
+    .joinBtn {
+        background-color: var(--cstm-third-C);
+    }
+    .joinBtn {
+        background-color: var(--cstm-third-C);
     }
