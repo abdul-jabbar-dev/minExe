@@ -5,12 +5,13 @@ import { FiLogIn } from "@react-icons/all-files/fi/FiLogIn";
 import { BsBook } from "@react-icons/all-files/bs/BsBook";
 import { RiBookLine } from "@react-icons/all-files/ri/RiBookLine";
 import { IoRocketOutline } from "@react-icons/all-files/io5/IoRocketOutline";
+import { RiDashboardLine } from "@react-icons/all-files/ri/RiDashboardLine";
 import { Link, NavLink } from 'react-router-dom';
 const Navigation = () => {
 
     return (
-        <section className='container mx-auto sticky top-0 '>
-            <nav className='container py-3  mx-auto flex justify-between items-center bg-gray-100 '>
+        <section className=' mx-auto sticky top-0 w-full bg-gray-100 '>
+            <nav className='container py-3  mx-auto flex justify-between items-center  '>
                 <div className=''>
                     <Link to="/"><img width={'115px'} src={headerLogo} alt="10 Minute school logo" srcset="" /></Link>
                 </div>
@@ -35,6 +36,10 @@ const Navigation = () => {
                         <NavLink to={'/courdse'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
                             <RiBookLine className='inline'></RiBookLine>
                             বুক স্টোর
+                        </NavLink>
+                        <NavLink to={'/dashboard'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
+                            <RiDashboardLine className='inline'></RiDashboardLine>
+                            ড্যাশবোর্ড
                         </NavLink>
                     </div>
                 </div>
