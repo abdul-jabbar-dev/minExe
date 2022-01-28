@@ -1,6 +1,8 @@
-import { BsBook } from '@react-icons/all-files/bs/BsBook';
-import { IoRocketOutline } from '@react-icons/all-files/io5/IoRocketOutline';
-import { RiBookLine } from '@react-icons/all-files/ri/RiBookLine';
+import { FiVideo } from '@react-icons/all-files/fi/FiVideo';
+import { VscCreditCard } from '@react-icons/all-files/vsc/VscCreditCard';
+import { AiOutlinePieChart } from '@react-icons/all-files/ai/AiOutlinePieChart';
+import { ImProfile } from '@react-icons/all-files/im/ImProfile';
+
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
@@ -8,24 +10,24 @@ const DashboardNav = () => {
     return (
         <div className='w-full h-max'>
             <div className='justify-center flex'>
-                <NavLink to={'/'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink " : " ")} >
-                    <BsBook className='inline'></BsBook>
-                    ১ম - দ্বাদশ শ্রেণি
+                <NavLink end to={''} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink " : " ")} >
+                    <AiOutlinePieChart className='inline'></AiOutlinePieChart>
+                    কোর্স বিশ্লেষণ
                 </NavLink>
 
-                <NavLink to={'/skills'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
-                    <IoRocketOutline className='inline'></IoRocketOutline>
-                    কোর্সসমূহ
+                <NavLink to={'/dashboard/teachers'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
+                    <ImProfile className='inline'></ImProfile>
+                    শিক্ষকদের প্রোফাইল
                 </NavLink>
 
-                <NavLink to={'/SkillDetails'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
-                    <BsBook className='inline'></BsBook>
-                    ভর্তি পরীক্ষা
+                <NavLink to={'/dashboard/courses'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
+                    <FiVideo className='inline'></FiVideo>
+                    সব কোর্স
                 </NavLink>
 
-                <NavLink to={'/courdse'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
-                    <RiBookLine className='inline'></RiBookLine>
-                    বুক স্টোর
+                <NavLink to={'/dashboard/currency'} className={({ isActive }) => "listItemsLink md:ml-1 " + (isActive ? " activeListItemsLink md:ml-1" : " ")} >
+                    <VscCreditCard className='inline'></VscCreditCard>
+                    মূলধন
                 </NavLink>
             </div>
         </div>
