@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import headerLogo from "../../images/logo/headerLogo.png"
 import './navigatior.css'
@@ -7,10 +8,12 @@ import { RiBookLine } from "@react-icons/all-files/ri/RiBookLine";
 import { IoRocketOutline } from "@react-icons/all-files/io5/IoRocketOutline";
 import { RiDashboardLine } from "@react-icons/all-files/ri/RiDashboardLine";
 import { Link, NavLink } from 'react-router-dom';
+
 const Navigation = () => {
 
+
     return (
-        <section className=' mx-auto sticky top-0 w-full bg-gray-100 '>
+        <section className=' mx-auto sticky top-0 w-full bg-gray-100  '>
             <nav className='container py-3  mx-auto flex justify-between items-center  '>
                 <div className=''>
                     <Link to="/"><img width={'115px'} src={headerLogo} alt="10 Minute school logo" srcset="" /></Link>

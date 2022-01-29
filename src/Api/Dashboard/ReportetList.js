@@ -10,7 +10,7 @@ const people = [
         price: '4000'
     }, {
         mentor: 'S.M. Nayem',
-        title: 'Google - এর মার্কেটিং টুলগুলোর ব্যবহার শিখুন',
+        title: 'Google -  এর মার্কেটিং টুলগুলোর ব্যবহার শিখুন',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjwEcKsiks6o93DUI1no4yX7u4xTf8TjTioA&usqp=CAU',
         date: '21/07/2022',
         duration: '05Hours',
@@ -37,10 +37,10 @@ const ReportetList = () => {
     return (
         <>
 
-            <table border="1px" style={{ tableLayout: 'auto' }}>
+            <table border="1px table-fixed">
                 <caption className=' sticky top-0 text-left pl-5' style={{ fontSize: '18px', fontWeight: 'bold', color: '#717171' }}>আসন্ন কোর্স</caption>
                 <thead className="bg-gray-50 sticky top-0">
-                    <tr >
+                    <tr className='odd:bg-white even:bg-slate-100'>
                         <th
                             scope="col"
                             className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
@@ -72,7 +72,7 @@ const ReportetList = () => {
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                     {people.map((course) => (
-                        <tr key={course.title}>
+                        <tr className='odd:bg-white even:bg-slate-100' key={course.title}>
                             <td className="px-6 py-4 whitespace-nowrap">
                                 <div className="flex items-center">
                                     <div className="flex-shrink-0 h-10 w-10">
